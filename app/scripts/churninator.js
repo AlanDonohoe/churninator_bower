@@ -48,6 +48,7 @@ var churninator = (function () {
       _w = window.innerWidth;
       _h = window.innerHeight;
       _el.addEventListener('click', _churninate);
+      console.log("Churninated... You'll be back");
     }
   };
 }());
