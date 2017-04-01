@@ -1,5 +1,6 @@
 {
   "name": "churninator-bower",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {},
   "devDependencies": {
