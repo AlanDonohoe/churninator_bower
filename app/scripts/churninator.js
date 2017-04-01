@@ -27,12 +27,12 @@ var churninator = (function () {
   };
 
   var _hideAndMove = function _hideAndMove(newBottom, newRight){
-    _el.style.zIndex = "100";
-    _el.style.position = "fixed";
-    _el.style.visibility = "hidden";
+    _el.style.zIndex = '100';
+    _el.style.position = 'fixed';
+    _el.style.visibility = 'hidden';
     _el.style.bottom = newBottom + 'px';
     _el.style.right = newRight + 'px';
-    _el.style.visibility = "visible";
+    _el.style.visibility = 'visible';
   };
 
   var _slide = function _slide(curPos, finalPos) {
